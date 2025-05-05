@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="splide"  role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="product">
+                        <h4>Hello</h4>
+                        <img src="https://luchiano.biz/wp-content/uploads/elementor/thumbs/pirozhki-pechenye-s-vishnjami-ottebyku6k8b6qielfzxh0a96osvfk7kcy8yfmybcw.png" width="300" alt="">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="product">
+                        <h4>Hello</h4>
+                        <img src="https://luchiano.biz/wp-content/uploads/elementor/thumbs/pirozhki-pechenye-s-vishnjami-ottebyku6k8b6qielfzxh0a96osvfk7kcy8yfmybcw.png" width="300" alt="">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="product">
+                        <h4>Hello</h4>
+                        <img src="https://luchiano.biz/wp-content/uploads/elementor/thumbs/pirozhki-pechenye-s-vishnjami-ottebyku6k8b6qielfzxh0a96osvfk7kcy8yfmybcw.png" width="300" alt="">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="product">
+                        <h4>Hello</h4>
+                        <img src="https://luchiano.biz/wp-content/uploads/elementor/thumbs/pirozhki-pechenye-s-vishnjami-ottebyku6k8b6qielfzxh0a96osvfk7kcy8yfmybcw.png" width="300" alt="">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="product">
+                        <h4>Hello</h4>
+                        <img src="https://luchiano.biz/wp-content/uploads/elementor/thumbs/pirozhki-pechenye-s-vishnjami-ottebyku6k8b6qielfzxh0a96osvfk7kcy8yfmybcw.png" width="300" alt="">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="product">
+                        <h4>Hello</h4>
+                        <img src="https://luchiano.biz/wp-content/uploads/elementor/thumbs/pirozhki-pechenye-s-vishnjami-ottebyku6k8b6qielfzxh0a96osvfk7kcy8yfmybcw.png" width="300" alt="">
+                    </div>
+                  </li>
+              </ul>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js
+    "></script>
+    <script>
+        new Splide( '.splide', {
+        autoScroll: {
+            speed: 3 ,
+        },
+        type   : 'loop',
+        perPage: 3,
+        breakpoints: {
+            700: {
+                perPage: 2,
+            },
+            480: {
+                perPage: 1,
+            },
+        }
+        } ).mount(window.splide.Extensions);
+      </script>
+</body>
+
+</html>
