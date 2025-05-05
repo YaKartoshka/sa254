@@ -1,0 +1,17 @@
+.product {
+    padding: 20px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.splide{
+    width: 80%;
+    margin: 50px auto;
+} 
+
+.splide__list{
+    gap: 10px;
+}
+
